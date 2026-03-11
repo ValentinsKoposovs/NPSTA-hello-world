@@ -15,8 +15,8 @@ on:
     inputs:
       name:
         type: string
-        default: World
-        description: Word Input
+        default: 'World'
+        description: 'Word Input'
         required: true
         
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
