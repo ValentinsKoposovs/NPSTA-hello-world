@@ -30,4 +30,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, ${{ inputs.name }}!
+        run: echo Hello, ${{inputs.name}}!
+      - name: Check node version
+        run: node --version
+        
